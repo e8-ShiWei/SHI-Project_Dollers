@@ -1,0 +1,55 @@
+body {
+	background-color:#0a0a0a;
+}
+.logo_box {
+	margin:20px 0;
+}
+.logo {
+	width:366px;
+	height:366px;
+	background-image:url(../images/LOGO.png);
+	background-repeat:no-repeat;
+	background-size:366px 366px;
+	margin:0 auto;
+	font-size:14px;
+	position:relative;
+}
+.logo_text {
+	width:100%;
+	text-align:center;
+	position:absolute;
+	top:215px;
+	color:#CCC;
+}
+@media (max-width: 600px) {
+.logo {
+ width:240px;
+ height:240px;
+ background-size:240px 240px;
+}
+.logo_text {
+ font-size:9px;
+ top:140px;
+}
+}
+.login_input {
+	text-align:center;
+	padding:40px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #FFF;
+	font-weight:bold;
+}
+.login_input input {
+	margin-left:20px;
+	padding:0 5px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #000;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+ -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+ transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}

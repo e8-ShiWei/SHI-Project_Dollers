@@ -1,0 +1,58 @@
+body{
+	background:#333;
+}
+.message_box {
+	position:fixed;
+	left:0;
+	right:0;
+	padding:5px 0;
+	background-color:#efefef;
+}
+.message_signout{
+	float:right;
+}
+.message_input{
+	margin-bottom:5px;
+}
+.message_input textarea {
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+ -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+ transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.message_submit{
+	padding:5px 0;
+}
+.message_content{
+	position:relative;
+	top:200px;
+}
+.message_content > div{
+	padding-bottom:10px;
+}
+.message_list{
+	list-style:none;
+}
+.profile{
+	position:relative;
+	z-index:-999;
+	text-align:center;
+	z-index:-999;
+	font-size:14px;
+	color:#CCC;
+}
+.profile img{
+	border:#CCC 2px solid;
+}
+.info{
+	text-align:left;
+	height:20px;
+	line-height:20px;
+	font-size:16px;
+	color:#FFF;
+}
